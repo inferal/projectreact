@@ -9,7 +9,7 @@ class Baner extends Component {
                 <div className="baner">
                     <div className="container">
                         <a className="clader-left" href="">
-                            <button>left</button>                               
+                            <button>&#10094</button>                               
                         </a>
                         <a className="clader-right" href="">
                             <button className="bt-right">right</button>                               
