@@ -1,0 +1,32 @@
+.navbar{
+    margin-bottom: 0;
+}
+.menu{
+    background: #44433e;    
+    border: 0;
+    border-radius: 0;
+    height: 120px;
+}
+.navbar-brand img{
+    position: relative;
+    top: 15px;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: #b8b8b8;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    padding-top: 45px;
+    padding-bottom: 55px;
+}
+
+.navbar-nav>li.active-link>a{
+    color: #18cfab;
+    border-bottom: 2px solid #18cfab;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    color: #18cfab;
+    border-bottom: 2px solid #18cfab;
+}

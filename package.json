@@ -4,7 +4,9 @@
   "private": true,
   "homepage": "https://inferal.github.com/projectreact",
   "dependencies": {
+    "bootstrap": "^3.3.7",
     "react": "^15.6.1",
+    "react-bootstrap": "^0.31.1",
     "react-dom": "^15.6.1",
     "react-scripts": "1.0.10"
   },
