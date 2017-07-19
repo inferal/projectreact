@@ -2,7 +2,7 @@
   "name": "projectreact",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/inferal/projectreact",
+  "homepage": "https://inferal.github.com/projectreact",
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
