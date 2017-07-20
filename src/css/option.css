@@ -1,0 +1,40 @@
+
+.opt{
+    background: #1c2a33;
+    border-top: 7px solid #18cfab;
+    height: 367px;
+}
+
+.opt_c{
+    background: #18cfab;
+    border-top: 7px solid #ffffff;
+     height: 367px;
+}
+
+.opt img{
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.opt_c img{
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.opt_c .item_text{
+    color: #1c2a33;
+}
+
+.item_text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+     color: #18cfab;
+     text-transform: uppercase;
+      margin-bottom: 80px;
+}
+    .col-md-3{
+        padding: 0;
+    }
+    .row{
+        margin: 0;
+    }

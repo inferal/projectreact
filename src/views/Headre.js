@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import Baner from './pages/Baner';
+import Option from './pages/Option';
 
 import '../css/header.css';
 
@@ -8,10 +9,10 @@ class Header extends Component{
     render(){
         return(
             <div>
-                    <nav className="navbar navbar-default navbar-fixed-top menu">
+                    <div className="navbar navbar-default navbar-fixed-top menu">
                         <div className="container">
                             <div className="navbar-header">
-                                <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                 <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                                     <span className="sr-only">Toggle navigation</span>
                                     <span className="icon-bar"></span>
                                     <span className="icon-bar"></span>
@@ -21,7 +22,7 @@ class Header extends Component{
                                     <img alt="logo" src="img/logo.png"/>                                
                                 </a>
                             </div>
-                            <div class="navbar-collapse collapse">
+                            <div className="collapse navbar-collapse" >
                                 <ul className="nav navbar-nav navbar-right">
                                     <li className="active-link"><a href="">home</a></li>        
                                     <li><a href="">about</a></li>        
@@ -34,8 +35,10 @@ class Header extends Component{
                                 </ul>
                             </div>
                         </div>
-                    </nav>
-                    <Baner />
+                    </div>
+                    
+                <Baner />
+                <Option />
             </div>
         )
     }

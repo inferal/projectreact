@@ -42,24 +42,3 @@ button{
 .btn{
     border-top: 5px solid #ffffff;
 }
-
-.clader-left button{
-    width: 64px;
-    height: 64px;
-    position: absolute;
-    left: 260px;
-    margin-top: 460px;
-}
-.clader-right button{
-    width: 64px;
-    height: 64px;
-    position: absolute;
-    margin-top: 460px;
-    right: 260px;
-}
-.clader-right button:hover{
-    color: #18cfab
-}
-.bt-right{
-    color: #18cfab;
-}
