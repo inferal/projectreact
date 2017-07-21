@@ -1,0 +1,60 @@
+.about{
+    height: 680px;
+    background: #090f14;
+}
+.about-img{
+    padding-left: 0;
+    padding-top: 53px;
+}
+.about-img img{
+    background: #b3b3b3;
+}
+.about-item{
+    padding-left: 16px;
+}
+.about-item h1{
+    color: #ffffff;
+    padding-top: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+}
+.about-hr1{
+    margin-left: 150px;
+    padding-bottom: 0;
+}
+.about-hr2{
+    margin-left: 170px;
+    margin-top: 3px;
+}
+.about-link{
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.about-link>li>a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.about-link>li.about-active-link>a{
+    color: #18cfab;
+    border-top: 2px solid #18cfab;
+}
+.about-link>li>a:hover{
+    color: #18cfab;
+    border-top: 2px solid #18cfab;
+    background: #090f14
+}
+.about-progress{
+    padding-top: 165px;
+}
+progress-bar {
+    height: 40px;
+    line-height: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
