@@ -4,6 +4,8 @@ import './App.css';
 import Header from './views/Headre';
 import Services from './views/Services';
 import About from './views/About';
+import Portfolio from './views/portfolio';
+import Team from './views/team';
 
 class App extends Component {
   render() {
@@ -12,6 +14,8 @@ class App extends Component {
         <Header />
         <Services />
         <About />
+        <Portfolio />
+        <Team />
       </div>
     );
   }

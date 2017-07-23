@@ -50,11 +50,34 @@
 .about-progress{
     padding-top: 165px;
 }
-progress-bar {
+
+.progress{    
     height: 40px;
-    line-height: 25px;
+    border: 1px solid #959595;
+    background-color: #090f14;
+    text-transform: uppercase;
+}
+.progress-bar{
+    line-height: 40px;
+    text-align: left;
+    padding-left: 20px;
     font-family: 'Montserrat', sans-serif;
     font-size: 13px;
-    text-transform: uppercase;
     font-weight: 400;
+}
+.user{
+    background: #9c5da5;
+}
+.web{
+    background: #11b0de;
+}
+.word{
+    background: #d67f7f;
+}
+.html{
+    background: #20bc9d;
+}
+
+.app-design{
+    background: #bb8a36;
 }

@@ -37,7 +37,7 @@ hr{
 .services-nav{
     padding-left: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     list-style: none;
     background: #f8fcfe;
     

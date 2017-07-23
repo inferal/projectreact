@@ -1,9 +1,30 @@
 import React, { Component } from 'react';
-import { ProgressBar } from 'react-bootstrap';
 
 import './../css/about.css';
 
 class About extends Component{
+
+    constructor(){
+        super()
+        this.state = {
+            progressState: 60,
+            progressState1: 80,
+            progressState2: 60,
+            progressState3: 85
+            
+        }
+    }
+
+    componentDidMount() {
+        setTimeout(() => {
+            this.increaseProgress(10)
+        },400)
+    }
+
+    increaseProgress(value){
+        this.setState({progressState: this.state.progressState + value})
+    }
+    
     render(){
         return(
             <div>
@@ -21,11 +42,32 @@ class About extends Component{
                              <li><a href="">our biography</a></li>
                              <li className="about-active-link"><a href="">our skills</a></li>
                          </ul>
-                          <div className="about-progress">
-                            <ProgressBar className="progress" bsStyle="success" now={40} label="User Interface"/>
-                            <ProgressBar bsStyle="info" now={20} />
-                            <ProgressBar bsStyle="warning" now={60} />
-                            <ProgressBar bsStyle="danger" now={80} />
+                         <div className="about-progress">
+                         <div className="progress">
+                            <div className="progress-bar user" style={{width: `${this.state.progressState}%`}}>
+                               user interface
+                            </div>
+                        </div>
+                        <div className="progress">
+                            <div className="progress-bar web"  style={{width: `${this.state.progressState1}%`}}>
+                              web design
+                            </div>
+                        </div>
+                        <div className="progress">
+                            <div className="progress-bar word" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style={{width: `${this.state.progressState2}%`}}>
+                              wordpress
+                            </div>
+                        </div>
+                        <div className="progress">
+                            <div className="progress-bar html" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style={{width: `${this.state.progressState3}%`}}>
+                              html & css
+                            </div>
+                        </div>
+                        <div className="progress">
+                            <div className="progress-bar app-design" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style={{width: `${this.state.progressState1}%`}}>
+                              app design
+                            </div>
+                        </div>
                         </div>
                         </div>
                     </div>
