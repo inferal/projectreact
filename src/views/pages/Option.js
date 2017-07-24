@@ -2,21 +2,8 @@ import React, { Component } from 'react';
 
 import '../../css/option.css';
 
-var four_option = [
-        {text:"personalized options", img:"img/1.png"},
-        {text:"fully customizable", img:"img/2.png"},
-        {text:"unlimited support", img:"img/3.png"},
-        {text:"responsive all device", img:"img/4.png"},        
-    ];
 
 class Option extends Component{
-    
-    constructor(props){
-        super(props)
-            this.state = {
-                items: four_option
-            }
-    }
 
     render(){
         

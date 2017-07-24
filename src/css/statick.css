@@ -1,0 +1,41 @@
+.statick{
+    padding-top: 173px;
+}
+.statik-opt{    
+    background: #25333c;
+    border-top: 7px solid #18cfab;
+    height: 378px;
+}
+.statik-opt_c{    
+    background: #18cfab;
+    border-top: 7px solid #25333c;
+    height: 378px;
+}
+.statik-opt img{
+    margin-top: 68px;
+}
+.statik-opt_c img{
+    margin-top: 68px;
+}
+
+.statick-number{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.statick-item_text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #18cfab;
+    margin-bottom: 80px;
+}
+.statick-item_text_c{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #25333c;
+    margin-bottom: 80px;
+}

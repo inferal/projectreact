@@ -5,7 +5,10 @@ import Header from './views/Headre';
 import Services from './views/Services';
 import About from './views/About';
 import Portfolio from './views/portfolio';
-import Team from './views/team';
+import Team from './views/Team';
+import Statick from './views/Statick';
+import News from './views/News';
+import Feedback from './views/Feedback';
 
 class App extends Component {
   render() {
@@ -16,6 +19,9 @@ class App extends Component {
         <About />
         <Portfolio />
         <Team />
+        <Statick />
+        <News />
+        <Feedback />
       </div>
     );
   }
