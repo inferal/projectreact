@@ -53,6 +53,7 @@
 }
 .button-cont button{
    margin-top: 60px;
+   margin-bottom: 135px;
 }
 .news-button{
     background: #18cfab;
@@ -63,4 +64,8 @@
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
+    
+}
+.news-button span{
+    letter-spacing: 10px;
 }

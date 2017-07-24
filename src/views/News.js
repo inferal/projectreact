@@ -108,7 +108,7 @@ class News extends Component{
                         </div>
                         </div>  
                         <div className="row button-cont">                     
-                            <button className="news-button" type="button"> + load more </button>
+                            <button className="news-button" type="button"><span className="glyphicon glyphicon-plus"></span> load more </button>
                         </div>
                         </div>
                     

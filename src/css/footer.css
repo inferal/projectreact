@@ -1,0 +1,24 @@
+.footer{
+    height: 108px;
+    background: #22353f;
+}
+
+.footer h1{
+    color: #aeaeae;    
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    padding-top: 30px;
+}
+.footer-home{
+    width: 43px;
+    height: 43px;
+    background: #1d8778;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 15px;
+    position: absolute;
+    right: 730px;
+    top: 8171px;
+}

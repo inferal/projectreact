@@ -9,6 +9,8 @@ import Team from './views/Team';
 import Statick from './views/Statick';
 import News from './views/News';
 import Feedback from './views/Feedback';
+import Contact from './views/Contact';
+import Footer from './views/Footer';
 
 class App extends Component {
   render() {
@@ -22,6 +24,8 @@ class App extends Component {
         <Statick />
         <News />
         <Feedback />
+        <Contact />
+        <Footer />
       </div>
     );
   }
